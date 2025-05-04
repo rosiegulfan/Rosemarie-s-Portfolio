@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosemarie Gulfan Portfolio</title>
+  
+  <!-- ✅ Added Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="btn-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Rosemarie Gulfan</h1>
+      <p>IT Student | Web Developer</p>
+      <a href="#skills" class="btn-green">View Services</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="text">
+        <h2>About Me</h2>
+        <p>
+          I'm Rosemarie Gulfan, a dedicated BSIT student and aspiring web developer. I specialize in various programming languages, including HTML, CSS, C++, and Java. My mission is to create beautiful and functional websites that meet the needs of users while showcasing my skills and creativity.
+        </p>
+        <a href="#contact">Get in touch</a>
+      </div>
+      <div class="photo">
+        <img src="images/hehe1.jpg" alt="Rosemarie Gulfan" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/pic.jpg" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>Skills in creating and maintaining websites using various front-end and back-end technologies.</p>
+      </div>
+      <div class="card">
+        <img src="images/pic1.jpg" alt="Problem Solving" />
+        <h3>Problem Solving</h3>
+        <p>Strong analytical skills for diagnosing issues and creating efficient solutions.</p>
+      </div>
+      <div class="card">
+        <img src="images/pic2.jpg" alt="Skill Development" />
+        <h3>Skill Development</h3>
+        <p>Enhance your coding skills with tailored guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Explore my web development projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <img src="images/hotel.png" alt="Hotel Booking System" />
+        <h3>Hotel Booking System</h3>
+        <p>A user-friendly platform for room reservations with smooth UI and secure transactions.</p>
+      </div>
+      <div class="project">
+        <img src="images/cafe.png" alt="Coffee Shop" />
+        <h3>Coffee Shop</h3>
+        <p>A cozy café web app where you can browse and plan your coffee adventure.</p>
+      </div>
+      <div class="project">
+        <img src="images/pic3.jpg" alt="Employee Management System" />
+        <h3>Employee Management System</h3>
+        <p>Streamlines HR tasks like records, attendance, and payroll.</p>
+       </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let's collaborate on your next project!</h2>
+    <form action="#" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Name *" required>
+      <input type="email" name="email" placeholder="Email address *" required>
+      <input type="tel" name="phone" placeholder="Phone number *" required>
+      <textarea name="message" rows="5" placeholder="Message"></textarea>
+      <label>
+        <input type="checkbox" required>
+        I allow this website to store my submission to respond to my inquiry.
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-info">
+      <p>Email: <a href="mailto:rosemariegulfan1@gmail.com">rosemariegulfan1@gmail.com</a></p>
+      <p>Location: Cebu City, PH</p>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
